@@ -1,0 +1,55 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Examples: Dependency tree",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/examples/dependency_tree.go",
+            "env": {
+                "GCLOUD_SERVICE_ACCOUNT_KEY": "${input:gcloud_service_account_key}"
+            }
+        },
+        {
+            "name": "Examples: NLP tokenize",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/examples/nlp_tokenize.go",
+            "env": {
+                "GCLOUD_SERVICE_ACCOUNT_KEY": "${input:gcloud_service_account_key}"
+            }
+        },
+        {
+            "name": "Examples: New source",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/source_test.go",
+            "env": {
+                "GCLOUD_SERVICE_ACCOUNT_KEY": "${input:gcloud_service_account_key}"
+            }
+        },
+        {
+            "name": "Examples: Source frames",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/examples/source_frames.go",
+            "env": {
+                "GCLOUD_SERVICE_ACCOUNT_KEY": "${input:gcloud_service_account_key}"
+            }
+        }
+    ],
+    "inputs": [
+        {
+            "id": "gcloud_service_account_key",
+            "description": "Google Cloud service account key path",
+            "type": "promptString"
+        }
+    ]
+}
