@@ -55,8 +55,7 @@ with its aliases is:
 entity := []string{"America", "USA", "United States", "US"}
 ```
 
-As text source with can use ["Congressional Record for the 43rd-114th
-Congresses: Parsed Speeches and Phrase Counts"](https://data.stanford.edu/congress_text).
+As text source we can use ["Congressional Record for the 43rd-114th Congresses: Parsed Speeches and Phrase Counts"](https://data.stanford.edu/congress_text).
 We skip the part how to parse the texts and use a subset for this example:
 
 ```go
