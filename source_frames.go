@@ -10,8 +10,8 @@ import (
 )
 
 // Frames tokenizes all texts and entities of source into [Frames]
-// according to tokenizer. An [Frames] is a collection of data frames and
-// entites within data frames.
+// according to tokenizer. [Frames] is a collection of data frames and
+// entities within data frames.
 //
 // [Normalizer] can be used to to reduce redundancy and improve data integrity.
 // Normalizers are not applied to entity tokens.
